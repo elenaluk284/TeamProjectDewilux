@@ -1,0 +1,181 @@
+.section-dropdowns {
+    display: flex;
+    color: #505050;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    position: relative;
+    @extend %container;
+
+    @media screen and (max-width: 2600px) {
+        margin: 0 auto;
+        }
+    @media screen and (max-width: 5000px) {
+            margin: 0 auto;
+            }
+    }
+    .dropdowns__container {
+        color: #505050;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1140px;
+        font-size: 16px;
+        @media screen and (max-width: 5000px) {
+            margin: 0 auto;
+            }
+        @media screen and (max-width: 2600px) {
+            margin: 0 auto;
+            }
+        @media screen and (max-width: 1250px) {
+            max-width: 960px;
+            }
+        } 
+    .dropdowns__title {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        color: #393939;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 32px;
+        margin-bottom: 24px;
+        @media screen and (max-width: 2600px) {
+            font-size: 32px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 28px;
+                }
+        @media screen and (max-width: 376px) {
+            font-size: 24px;
+            }
+            @media screen and (max-width: 320px) {
+                font-size: 20px;
+                margin-bottom: 16px;
+                }
+            
+        }
+    .image-header {
+        color: #505050;
+        box-sizing: border-box;
+        max-height: 898px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 300px;
+
+        @media screen and (max-width: 5000px) {
+            height: 898px;}
+            
+        @media screen and (max-width: 2600px) {
+            height: 300px;
+            }
+            @media screen and (max-width: 768px) {
+                height: 250px;
+                }
+                @media screen and (max-width: 376px) {
+                    height: 200px;
+                    }
+        @media screen and (max-width: 320px) {
+            height: 180px;
+            }
+        }
+        
+        .dropdowns__img {
+        display: flex;
+        float: right; 
+        width: 350px;
+        height:auto; 
+
+        @media screen and (max-width: 1250px) {
+            width: 350px;
+            height: 194px;
+            margin-bottom: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        @media screen and (max-width: 376px) {
+            float: none;
+            width: 100%;
+            height: auto;
+            align-items: center;
+        }
+        @media screen and (max-width: 320px) {
+            width: 100%; 
+            height: auto;
+            }  
+        }
+
+    .main__nav {
+        margin: 54px 0 54px;
+    
+        .active {
+            color: $accent-red;
+        }
+    
+        .breadcrumb-item:hover {
+            color: $accent-red;
+        }
+    }
+    .breadcrumb-item {
+        font-size: 30px; 
+    }
+    .breadcrumb-item:hover {
+        color: #dc3545;
+        
+            @media screen and (max-width: 376px) {
+            font-size: 20px;
+            }
+        }
+        .breadcrumb-item active text-danger {
+            @media screen and (max-width: 376px) {
+                font-size: 20px;
+                }
+        }
+    
+    .breadcrumb-item a:hover,
+    .breadcrumb-item a:focus,
+    .breadcrumb-item a:active {
+        color: #FF0000;
+        @media screen and (max-width: 376px) {
+            font-size: 20px;
+            }
+    }
+
+    .dropdowns-text {
+        color: #505050;
+        box-sizing: border-box;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        margin-bottom: 24px;
+        font-size: 1em;
+        margin-bottom: 40px;
+
+        @media screen and (max-width: 2600px) {
+            font-size: 16px;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 15px;
+                }
+        @media screen and (max-width: 376px) {
+            font-size: 14px;
+            }
+    }
